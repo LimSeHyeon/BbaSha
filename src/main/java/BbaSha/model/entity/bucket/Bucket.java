@@ -25,7 +25,7 @@ public class Bucket{
     }
 
     public void deleteAllOrderedMenu(){
-        this.orderdMenu.clear();
+        this.orderedMenu.clear();
     }
 
 }
