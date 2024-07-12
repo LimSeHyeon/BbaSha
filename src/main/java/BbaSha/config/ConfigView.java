@@ -23,6 +23,8 @@ public enum ConfigView {
     RESTAURANT_COUNT_VIEW(RestaurantCountView.class.getName(), new RestaurantCountView()),
     RESTAURANT_BUCKET_VIEW(RestaurantBucketView.class.getName(), new RestaurantBucketView());
 
+
+
     private final String name;
     private final View view;
     ConfigView(String name, View view) {
