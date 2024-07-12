@@ -1,4 +1,9 @@
 package BbaSha.model.entity.category;
 
-public interface Category {
+import lombok.Getter;
+
+@Getter
+public class Category {
+    public Integer id;
+    private String name;
 }

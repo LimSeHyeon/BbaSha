@@ -13,4 +13,6 @@ public class NotFoundView implements View{
     public String input() throws BbaShaException {
         return "";
     }
+
+
 }
