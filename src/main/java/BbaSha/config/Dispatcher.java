@@ -44,6 +44,12 @@ public class Dispatcher {
             return viewResolver.resolve(viewName);
         }
 
+        if (className.equals(BUCKET_VIEW.getName())) {
+            if (parsedInputs[0].equals("1")) {
+
+            }
+        }
+
         if(className.equals(LOGIN_VIEW.getName())) {
             if(parsedInputs[0].equals("1")) {
                 viewName = LOGIN_VIEW.getName();

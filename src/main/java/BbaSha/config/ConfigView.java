@@ -2,6 +2,7 @@ package BbaSha.config;
 
 import BbaSha.view.NotFoundView;
 import BbaSha.view.View;
+import BbaSha.view.bucket.BucketView;
 import BbaSha.view.login.LoginMenuView;
 import BbaSha.view.login.LoginView;
 import BbaSha.view.main.MainView;
@@ -12,7 +13,8 @@ public enum ConfigView {
     LOGIN_VIEW(LoginView.class.getName(), new LoginView()),
     MAIN_VIEW(MainView.class.getName(), new MainView()),
     LOGIN_MENU_VIEW(LoginMenuView.class.getName(), new LoginMenuView()),
-    NOT_FOUND_VIEW(NotFoundView.class.getName(), new NotFoundView());
+    NOT_FOUND_VIEW(NotFoundView.class.getName(), new NotFoundView()),
+    BUCKET_VIEW(BucketView.class.getName(), new BucketView());
 
     private final String name;
     private final View view;
