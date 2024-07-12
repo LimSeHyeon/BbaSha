@@ -64,6 +64,7 @@ public class Dispatcher {
             return viewResolver.resolve(viewName);
         }
 
+        if(className.equals())
         return viewResolver.resolve(viewName);
     }
 
