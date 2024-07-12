@@ -14,6 +14,8 @@ public enum ConfigView {
     LOGIN_MENU_VIEW(LoginMenuView.class.getName(), new LoginMenuView()),
     NOT_FOUND_VIEW(NotFoundView.class.getName(), new NotFoundView());
 
+
+
     private final String name;
     private final View view;
     ConfigView(String name, View view) {
